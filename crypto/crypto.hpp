@@ -8,7 +8,7 @@ namespace frzCrypto {
    class Coin {
       public:
        Coin();
-       virtual ~Coin();
+       ~Coin() = default;
    };
 
 }
